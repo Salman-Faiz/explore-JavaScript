@@ -7,9 +7,9 @@ var total = add(20,20,20);
 console.log(total);
 
 
-function singaraNiyeAso(money){
+function singaraNiyeAso(taka){
     var potiSingaraPrice =10;
-    var singaraPabo= money/potiSingaraPrice;
+    var singaraPabo= taka/potiSingaraPrice;
     return singaraPabo;
 }
 var amarTaka =300;
