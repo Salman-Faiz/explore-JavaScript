@@ -38,7 +38,17 @@ var mobile ={
 
     console.log( shoppingCart);
 
+     var propertyName= 'keyboards';
+
+    shoppingCart[propertyName]=56;
+    console.log(shoppingCart);
+
     // get propertyValues................
 
     var mouseCount = shoppingCart.mouse;
     console.log(mouseCount);
+
+    var propertyName ='monitor';
+
+    var showPropertyValue = shoppingCart[propertyName];
+    console.log(showPropertyValue);
