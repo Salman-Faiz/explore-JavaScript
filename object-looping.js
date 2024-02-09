@@ -7,6 +7,8 @@ var houseItems ={
     computer : 4
 };
 var keys =Object.keys(houseItems);
+// object.keys returns all object properties in an array.
+// var keys =[ 'light', 'fan', 'tubelight', 'dressingTable', 'ips', 'computer' ];
 var values =Object.values(houseItems);
 
 console.log(keys,values);
